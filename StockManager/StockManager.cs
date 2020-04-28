@@ -14,11 +14,6 @@ namespace StockManager
         public static  string path = System.IO.Directory.GetCurrentDirectory();
         public static string ItemsFolder = path + @"\Commun\ItemLineFile.json";
 
-
-
-
-
-
         public static List<ItemLine> getStock()
         {
             using (System.IO.StreamReader r = new System.IO.StreamReader(ItemsFolder))
